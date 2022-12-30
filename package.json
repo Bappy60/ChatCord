@@ -1,0 +1,28 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bappy60/ChatCord.git"
+  },
+  "author": "Kawsar Ahemmed Bappy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bappy60/ChatCord/issues"
+  },
+  "homepage": "https://github.com/Bappy60/ChatCord#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
